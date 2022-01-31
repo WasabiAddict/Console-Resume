@@ -9,7 +9,7 @@ const jobDescription =
   "Answer customer complaints, investigate illegal hazardous dumping, report and enforce penalties for responsible parties.";
 
 function displayPosition(companyName, jobTitle, jobDescription) {
-  console.log(jobTitle + " at " + companyName + " - " + jobDescription);
+  console.log("* " + jobTitle + " at " + companyName + " - " + jobDescription);
 }
 
 function displaySkill(skillName, isCool) {

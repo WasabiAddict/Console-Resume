@@ -23,7 +23,7 @@ function displaySkill(skillName, isCool) {
 console.log("Name: " + name.toUpperCase());
 console.log("Career: " + career);
 console.log("Description: " + description);
-console.log();
+console.log(" ");
 console.log("My Interests:");
 console.log("* " + interests[0]);
 console.log("* " + interests[1]);

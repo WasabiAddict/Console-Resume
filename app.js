@@ -2,7 +2,7 @@ const name = "david tran";
 const career = "Web Development, Software Engineer";
 const description = "Hardworking student currently enrolled at Innovate. Previously worked as an environmental scientist for the State. Very analytical with experience in customer satisfaction and data gathering";
 const interests = ["Music", "Movies", "Dota 2", "Friends"];
-const skillName = ["JavaScript", "CSS","HTML"];
+const skillName = ["JavaScript", "CSS","HTML", "dance", "singing"];
 const companyName = "ADEM";
 const jobTitle = "Environmental Scientist";
 const jobDescription =
@@ -31,8 +31,11 @@ for (i=0; i < interests.length; i++) {
 console.log(" ");
 console.log("My Previous Work Experience:");
 displayPosition(companyName, jobTitle, jobDescription);
-console.log();
+console.log(" ");
 console.log("My Skills: ");
-displaySkill(skillName[0], false);
-displaySkill(skillName[1], true);
+displaySkill(skillName[0], true);
+displaySkill(skillName[1], false);
 displaySkill(skillName[2], false);
+displaySkill(skillName[3], true);
+displaySkill(skillName[4], true);
+

@@ -1,20 +1,13 @@
-const name = "Hunter Hamilton";
+const name = "David Tran";
 const career = "Web Development, Software Engineer";
 const description =
-  "Knowledgeable Technical Support Specialist with over 8 years of experience in large corporations, 4 years of experience with workshop background as an automotive mechanic, and 4 years of experience within a warehouse atmosphere as Technical Support Director, Quality Control Manager, and Operations Exectuive.";
-const interests = ["Locomotives", "Art", "Computers", "Piano", "Cars"];
-const skillName = [
-  "Linux OS fluent",
-  "CCNA Certified",
-  "Leadership Skills 101 Certified",
-  "JavaScript",
-  "CSS",
-  "HTML",
-];
-const companyName = "Chase Bays";
-const jobTitle = "Quality Control Manager";
+  "Hardworking student currently enrolled at Innovate. Previously worked as an environmental scientist for the State. Very analytical with experience in customer satisfaction and data gathering";
+const interests = ["Music", "Movies", "Dota 2", "Friends"];
+const skillName = ["JavaScript", "CSS","HTML"];
+const companyName = "ADEM";
+const jobTitle = "Environmental Scientist";
 const jobDescription =
-  "Quality Control Inspector with hands-on experience inspecting precision production manufactured parts. Good knowledge of GD&T; detail-oriented with great communication and computer skills. Highly skilled with calipers, micrometers, height gages, comparators, oscilloscopes, spectrophotometer vision systems, CMM, and other precision inspection instruments.";
+  "Answer customer complaints, investigate illegal hazardous dumping, report and enforce penalties for responsible parties.";
 
 function displayPosition(companyName, jobTitle, jobDescription) {
   console.log(jobTitle + " at " + companyName + " - " + jobDescription);

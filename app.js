@@ -29,7 +29,6 @@ console.log("* " + interests[0]);
 console.log("* " + interests[1]);
 console.log("* " + interests[2]);
 console.log("* " + interests[3]);
-console.log("* " + interests[4]);
 console.log();
 console.log("My Previous Work Experience:");
 displayPosition(companyName, jobTitle, jobDescription);

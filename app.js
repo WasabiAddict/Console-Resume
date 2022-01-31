@@ -25,11 +25,10 @@ console.log("Career: " + career);
 console.log("Description: " + description);
 console.log(" ");
 console.log("My Interests:");
-console.log("* " + interests[0]);
-console.log("* " + interests[1]);
-console.log("* " + interests[2]);
-console.log("* " + interests[3]);
-console.log();
+for (i=0; i < interests.length; i++) {
+    console.log("* " + interests[i])
+};
+console.log(" ");
 console.log("My Previous Work Experience:");
 displayPosition(companyName, jobTitle, jobDescription);
 console.log();

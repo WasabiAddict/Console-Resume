@@ -1,7 +1,6 @@
-const name = "David Tran";
+const name = "david tran";
 const career = "Web Development, Software Engineer";
-const description =
-  "Hardworking student currently enrolled at Innovate. Previously worked as an environmental scientist for the State. Very analytical with experience in customer satisfaction and data gathering";
+const description = "Hardworking student currently enrolled at Innovate. Previously worked as an environmental scientist for the State. Very analytical with experience in customer satisfaction and data gathering";
 const interests = ["Music", "Movies", "Dota 2", "Friends"];
 const skillName = ["JavaScript", "CSS","HTML"];
 const companyName = "ADEM";
@@ -39,6 +38,3 @@ console.log("My Skills: ");
 displaySkill(skillName[0], false);
 displaySkill(skillName[1], true);
 displaySkill(skillName[2], false);
-displaySkill(skillName[3], false);
-displaySkill(skillName[4], false);
-displaySkill(skillName[5], false);
